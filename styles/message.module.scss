@@ -1,0 +1,43 @@
+$green: rgb(191, 238, 191);
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    margin-right: 8em;
+    width: 90%;
+
+    .text {
+        font-weight: bold;
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        background-color: rgb(191, 238, 191);
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 10px 5px;
+        word-break: break-all;
+    }
+
+    .textreciever {
+        font-weight: bold;
+        width: auto;
+        height: auto;
+        display: flex;
+        padding: 10px 5px;
+        margin-top: 10px;
+        align-items: flex-start;
+        background-color: white;
+        border-radius: 5px;
+        word-break: break-all;
+    }
+
+    .time {
+        color: white;
+        margin-top: 5px;
+        font-weight: bolder;
+    }
+
+}
+

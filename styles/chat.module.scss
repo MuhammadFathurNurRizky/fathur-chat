@@ -1,0 +1,43 @@
+// Variable
+$backgroundColorHeader: #eaeaea;
+$hoverKontak: #e9eaeb;
+$previousMessage: #262626;
+
+// scss
+.wrapkontak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid $backgroundColorHeader;
+    cursor: pointer;
+
+    .kontak {
+
+        .imgauthkontak {
+            border-radius: 100%;
+            margin-left: 5px;
+            width: 3em;
+        }
+
+        .imgkontak {
+            width: 3em;
+            border-radius: 100%;
+            margin-left: 0px;
+        }
+    }
+
+    .profile {
+
+        .profilename {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: 10px;
+        }
+    }
+
+    &:hover {
+        background-color: $hoverKontak;
+    }
+}

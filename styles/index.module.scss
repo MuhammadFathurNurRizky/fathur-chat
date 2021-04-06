@@ -1,0 +1,101 @@
+// Variable
+$backgroundColorHeader: #eaeaea;
+$hoverKontak: #e9eaeb;
+$previousMessage: #262626;
+$backgroundtext: rgb(219, 219, 219);
+
+// scss
+.container {
+    display: flex;
+
+    .chatcontainer {
+        height: 100vh;
+        width: 100%;
+
+        .headerchat {
+            width: 100%;
+            height: 10vh;
+            background-color: $backgroundColorHeader;
+            border-left: 2px solid #a9a9a9;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    
+            .kontak {
+                .imgauthkontak {
+                    width: 50%;
+                    height: 50%;
+                    border-radius: 100%;
+                }
+
+                .imgkontak {
+                    width: 10%;
+                    height: 10%;
+                    border-radius: 100%;
+                    margin-left: 5em; 
+                }
+            }
+    
+            .profile {
+    
+                .profilename {
+                    font-size: 1.5em;
+                }
+            }
+    
+            .time{
+                
+                .messagetime {
+                    color: gray;
+                }
+            }
+        }
+
+        .chat {
+            height: 80vh;
+            width: 100%;
+            background-image: url("/whatsapp.png");
+            background-repeat: repeat;
+            background-color: gray;
+            background-position: center;
+            scroll-behavior: smooth;
+            overflow-y: auto;
+
+            .chatperson {
+                height: auto;
+                text-align: center;
+                margin-top: 10px;
+                margin-left: 5em;
+
+                .realchat {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .containerinput {
+            display: flex;
+            justify-content: space-between;
+            height: 10vh;
+            background-image: gray;
+            align-items: center;
+            width: 73.5%;
+            background-color: $backgroundtext;
+            position: fixed;
+            z-index: 100;
+
+            .input {
+                width: 85%;
+                height: 8vh;
+                font-size: 2em;
+            }
+
+            .buttonmessage {
+                height: 8vh;
+                font-size: 2em;
+                width: 20%;
+            }
+        }
+    }
+}
