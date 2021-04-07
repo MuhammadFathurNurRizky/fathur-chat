@@ -13,7 +13,7 @@ This is my second project. In this project i make whatsapp clone for my self i n
 First, clone my project:
 
 ```bash
-git clone https://github.com/MuhammadFathurNurRizky/fathurchat
+git clone https://github.com/MuhammadFathurNurRizky/fathur-chat
 ```
 
 Second, run the development server:
