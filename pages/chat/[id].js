@@ -69,7 +69,7 @@ function Chat({ chat, messages }) {
     const ScrollToBottom = () => {
         endOfMessagesRef.current.scrollIntoView({
             behavior: "smooth",
-            block: "start"
+            block: "end"
         });
     };
 
@@ -132,7 +132,7 @@ function Chat({ chat, messages }) {
                     </div>
                     <div className={styles.containerinput}>
                         <input value={input} onChange={e => setInput(e.target.value)} className={styles.input} type="text" placeholder="Ketikan Pesan Anda" />
-                        <button className={styles.buttonmessage}type="submit" onClick={sendMessage}>KIRIM</button>
+                        <button className={styles.buttonmessage} type="submit" onClick={sendMessage}>KIRIM</button>
                     </div>
                 </div>
             </div>

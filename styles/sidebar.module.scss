@@ -8,6 +8,10 @@ $previousMessage: #262626;
     width: 30%;
     height: 100vh;
 
+    @media (max-width: 1000px) {
+        display: none;
+    }
+
     .headerside {
         width: 100%;
         height: 10vh;
