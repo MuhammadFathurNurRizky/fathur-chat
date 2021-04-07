@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fathur's-Chat
+
+This is my second project. In this project i make whatsapp clone for my self i name it [Fathur's Chat](https://fathur-chat.vercel.com).
+
+## The Technology and Framework That I Use
+
+1. Next.js(Frontend) [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+2. Firebase(backend) [firebase](https://firebase.google.com), I decided to not use Node.js because it's not secure as default so im just using the firebase to more securing my app.
 
 ## Getting Started
 
-First, run the development server:
+First, clone my project:
+
+```bash
+git clone https://github.com/MuhammadFathurNurRizky/fathurchat
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -14,18 +28,16 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+1. To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. To learn more about Firebase, take a look at the following resource:
+
+- [Firebase Documentation](https://firebase.google.com/docs/web/setup) - learn about Firebase features.
 
 ## Deploy on Vercel
 
