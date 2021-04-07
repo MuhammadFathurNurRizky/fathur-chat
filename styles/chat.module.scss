@@ -34,6 +34,11 @@ $previousMessage: #262626;
             overflow: hidden;
             text-overflow: ellipsis;
             margin-left: 10px;
+            font-size: 1.3em;
+
+            @media (max-width: 450px) {
+                font-size: 1em;
+            }
         }
     }
 

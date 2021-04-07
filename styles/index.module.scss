@@ -47,7 +47,17 @@ $backgroundtext: rgb(219, 219, 219);
                     width: 10%;
                     height: 10%;
                     border-radius: 100%;
-                    margin-left: 5em; 
+                    margin-left: 5em;
+
+                    @media (max-width: 600px) {
+                        width: 4em;
+                        height: 4em;
+                    }
+
+                    @media (max-width: 450px) {
+                        width: 3em;
+                        height: 3em;
+                    }
                 }
             }
     
